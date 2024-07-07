@@ -57,6 +57,10 @@ def main():
         ('sec', 'secret', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
+        ('otelinst', 'instrumentations', ['g', 'd', 'rm'], None),
+        ('otelcol', 'opentelemetrycollectors', ['g', 'd', 'rm'], None),
+        ('pmon', 'podmonitors', ['g', 'd', 'rm'], None),
+        ('smon', 'servicemonitors', ['g', 'd', 'rm'], None),
         ]
     res_types = [r[0] for r in res]
 
